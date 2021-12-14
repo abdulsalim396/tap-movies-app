@@ -1,0 +1,27 @@
+$primary: #7400d9;
+
+@import '~bootstrap/scss/bootstrap.scss';
+.App{
+    min-height: 100vh;
+    background-color: #111;
+}
+.movie-card {
+    width: 325px;
+    display: grid;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+.card-image {
+    height: 300px;
+    width: 280px;
+}
+.details-card {
+    height: fit-content;
+    width: fit-content;
+    img {
+        height: 600px;
+        width: auto;
+    }
+}
